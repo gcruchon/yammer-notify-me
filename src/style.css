@@ -1,0 +1,62 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+/* Clone the look and feel of "chrome://" pages. */
+body {
+	width: 350px;
+	margin: 10px;
+	font: 90% Arial, sans-serif
+}
+body.notification {
+	width: auto;
+	background: url(icon.png) no-repeat 10px 10px;
+	padding: 0 0 0 30px;
+}
+
+a {
+	color: #1a65a5;
+}
+
+h1 {
+	font-size: 130%;
+	background: url(icon.png) no-repeat 5px 50%;
+	padding: 0 0 0 30px;
+}
+
+h1 img {
+	margin: 1px 5px 0 1px;
+	vertical-align: middle
+}
+
+h2 {
+	border-top: 1px solid #9cc2ef;
+	background-color: #ebeff9;
+	padding: 3px 5px;
+	font-size: 120%;
+}
+
+#network-data {
+	margin-bottom: 2em;
+}
+.network {
+	margin-bottom: 1em;
+}
+.title, .not-empty, .important {
+	font-weight: bold;
+}
+.title {
+	font-size: 115%;
+}
+.empty {
+	color: #777;
+}
+.content {
+	margin-top: .5em;
+	padding-left: 2em;
+}
+.include {
+	font-style: italic;
+}

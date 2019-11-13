@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Yammer Notify Me</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="common.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Yammer Notify Me</h1>
+    <form id="options">
+	  <h2>Networks</h2>
+	  <div id="network-data">Loading...</div>
+    
+	  <h2>Options</h2>
+      <p>
+		  Check for new message every
+		  <select name="frequency">
+			<option value="1">minute</option>
+			<option value="5">5 minutes</option>
+			<option value="10">10 minutes</option>
+			<option value="30">30 minutes</option>
+		  </select>
+      </p>
+      <p>
+		  Desktop notification will dismiss after 
+		  <select name="dismiss">
+			<option value="5">5 seconds</option>
+			<option value="10">10 seconds</option>
+			<option value="30">30 seconds</option>
+		  </select>
+      </p>
+    </form>
+  </body>
+</html>
